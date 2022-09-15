@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <student>
-    <id>1</id>
-    <name>mahesh</name>
-    <slary>6236.0</slary>
+	<id>1</id>
+	<name>mahesh</name>
+	<slary>6236.0</slary>
 </student>
