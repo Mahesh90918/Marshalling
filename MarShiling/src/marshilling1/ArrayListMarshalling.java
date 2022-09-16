@@ -32,7 +32,7 @@ public class ArrayListMarshalling {
 			FileOutputStream file = new FileOutputStream("src//marshilling1//ArrayListMar2.xml");
 			for (student student : al) {
 				// byte [] b=student.toString().getBytes();
-//				file.write(student.toString().getBytes());
+//	file.write(student.toString().getBytes());  Don't Write this line
 				// System.out.println(student);
 				mar.marshal(student, file);
 			}
