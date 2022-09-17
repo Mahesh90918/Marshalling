@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students>
+	<student>
+		<id>1</id>
+		<name>siva</name>
+		<salary>2500.0</salary>
+	</student>
+	<student>
+		<id>2</id>
+		<name>sriman</name>
+		<salary>2500.0</salary>
+	</student>
+	<student>
+		<id>3</id>
+		<name>mahesh</name>
+		<salary>2500.0</salary>
+	</student>
+	<student>
+		<id>4</id>
+		<name>shan</name>
+		<salary>2500.0</salary>
+	</student>
+</students>
