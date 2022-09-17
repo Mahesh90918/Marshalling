@@ -12,12 +12,14 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
 public class ArrayListMarshalling {
+
+	// This Xml file format cannot be readed.
 	public static void main(String[] args) {
 		student s1 = new student(01, "siva", 5000);
 		student s2 = new student(02, "sriman", 1000);
 		student s3 = new student(03, "san", 2000);
 		student s4 = new student(04, "mahesh", 1000);
-		student[] s = { s1, s2, s3, s4 };
+		// student[] s = { s1, s2, s3, s4 };
 		ArrayList<student> al = new ArrayList<student>();
 		al.add(s1);
 		al.add(s2);
@@ -28,7 +30,7 @@ public class ArrayListMarshalling {
 			JAXBContext jaxbContext = JAXBContext.newInstance(student.class);
 			// must change class name as a ArrayList
 			Marshaller mar = jaxbContext.createMarshaller();
-			mar.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+			// mar.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 			FileOutputStream file = new FileOutputStream("src//marshilling1//ArrayListMar2.xml");
 			for (student student : al) {
 				// byte [] b=student.toString().getBytes();

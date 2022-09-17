@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <student>
-    <id>1</id>
-    <name>siva</name>
-    <slary>5000.0</slary>
-</student>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<id>1</id>
+	<name>siva</name>
+	<slary>5000.0</slary>
+</student><?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <student>
-    <id>2</id>
-    <name>sriman</name>
-    <slary>1000.0</slary>
-</student>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<id>2</id>
+	<name>sriman</name>
+	<slary>1000.0</slary>
+</student><?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <student>
-    <id>3</id>
-    <name>san</name>
-    <slary>2000.0</slary>
-</student>
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<id>3</id>
+	<name>san</name>
+	<slary>2000.0</slary>
+</student><?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <student>
-    <id>4</id>
-    <name>mahesh</name>
-    <slary>1000.0</slary>
+	<id>4</id>
+	<name>mahesh</name>
+	<slary>1000.0</slary>
 </student>
