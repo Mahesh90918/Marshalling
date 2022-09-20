@@ -27,7 +27,7 @@ public class GsonArrayRead {
 		System.out.println(a);
 		ArrayList al = new ArrayList(a);
 		Iterator i = al.iterator();
-		while (i.hasNext()) {
+		while (i.hasNext() ) {
 			System.out.println(i.next());
 		}
 	}
