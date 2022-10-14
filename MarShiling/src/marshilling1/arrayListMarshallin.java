@@ -30,7 +30,7 @@ public class arrayListMarshallin {
 			mar.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 			PrintWriter file = new PrintWriter("src//marshilling1//ArrayListMar1.xml");
 			for (student student : al) {
-				file.println(student.toString());
+			//	file.println(student.toString());
 				mar.marshal(student, file);
 			}
 			System.out.println("sucess");

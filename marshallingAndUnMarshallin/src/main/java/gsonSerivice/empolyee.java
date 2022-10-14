@@ -15,9 +15,11 @@ public class empolyee {
 	String name;
 	double salary;
 	String JobRole;
-public empolyee() {
-	// TODO Auto-generated constructor stub
-}
+
+	public empolyee() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public empolyee(int id, String name, double salary, String jobRole) {
 		super();
 		this.id = id;
@@ -25,8 +27,6 @@ public empolyee() {
 		this.salary = salary;
 		JobRole = jobRole;
 	}
-
-
 
 	public int getId() {
 		return id;
@@ -44,7 +44,6 @@ public empolyee() {
 	public void setName(String name) {
 		this.name = name;
 	}
-
 
 	public double getSalary() {
 		return salary;
